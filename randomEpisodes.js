@@ -35,7 +35,7 @@ fs.readdirSync(folder_name+'/'+season_folder).forEach(file => {
 
 var play = episodes[Math.floor(Math.random() * episodes.length)];
 
-
+//xdg-open command is for ubuntu, for windows - 'start' and for mac - 'open'
 cp.exec('xdg-open ' + play, function (err, stdout, stderr) {
   if (err) {
       console.error(err);
