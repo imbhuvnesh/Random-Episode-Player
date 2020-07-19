@@ -3,8 +3,8 @@ const fs = require('fs');
 var cp = require("child_process");
 
 
-
-var folder_name = '/home/bhuvenesh/Desktop/familyguy';
+//path to your series folder
+var folder_name = '';
 
 process.chdir(folder_name);
 
