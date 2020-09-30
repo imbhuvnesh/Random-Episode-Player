@@ -10,6 +10,8 @@ process.chdir(folder_name);
 
 folder_items = [];
 var i = 0;
+// hsvbfiuwshfowkdskhsdbkwd
+var a = 0;
 
 
 fs.readdirSync(folder_name).forEach(file => {
